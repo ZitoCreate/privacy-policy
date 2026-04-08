@@ -2,6 +2,17 @@ form {
   max-width: 500px;
   margin-top: 20px;
 }
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.screenshots img {
+  max-width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
 
 input, textarea {
   width: 100%;
